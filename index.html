@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vendor Styles -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Personal Styles -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style_index.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- Titulo de l pagina -->
+    <title>Portafolio</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Logo en Texto  -->
+            <h1 class="logo"><a href="index.html">Alexander Angarita Iguarán</a></h1>
+            <!-- Menu  -->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto " href="About.html">About</a></li>
+                    <li><a class="nav-link scrollto" href="projects.html">Projects</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero ======= -->
+    <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+        <!-- quitar etiqueta "video y styles" para poner una imgane de fondo y no un video -->
+        <video src="assets/videos/hero-bg.mov" autoplay="true" muted="true" loop="true"
+            poster="assets/img/hero-bg.jpg"></video>
+        <style>
+            video {
+                position: absolute;
+                min-width: 100%;
+                min-height: 100%;
+
+                z-index: -1;
+            }
+
+            .hero {
+                overflow: hidden;
+            }
+        </style>
+        <div class="overlay-itro"></div>
+        <div class="hero-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h1 class="hero-title mb-4">I am Alexander Angarita Iguarán</h1>
+                    <p class="hero-subtitle">
+                        <span class="typed" data-typed-items="Developer, Freelancer"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Main -->
+
+    <!-- ======= Main ======= -->
+    <main id="main">
+        <div class="about">
+            <div class="container-about">
+                <div class="perfil">
+                    <img class="perfil-foto" src="assets/img/perfil.jpg" />
+                    <div class="titulo">
+                        <h1>Alexander Angarita Iguarán</h1>
+                        <p>Electrical engineer, project management specialist. Experience in construction project control,
+                           refinery start-up and commissioning, residential and commercial electrical installations design, 
+                           resident engineer and technical auditor of electrical works in commercial construction projects 
+                           and on electrical systems of open-cast mining. Knowledge in generation systems, photovoltaic solar 
+                           power, in power systems, electrical machines, electrical networks and drawings interpretation. Skills 
+                           in strategic planning, data analysis, decision-taking, team work leadership. Highly committed, reliable 
+                           and goal-oriented professional.</p>
+                        <a href="About.html">
+                            <button class="button-73" role="button">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-about-social">
+                <div class="icons-social">
+                    <div class="link">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/alexander-angarita-iguar%C3%A1n-18a77a16/"
+                                class="linkedin" target="_blank">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Aangaritai"
+                                class="github" target="_blank">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-projects">
+            <section class="titulo-grid">
+                <a href="projects.html">
+                    <h1>
+                        GitHub Projects
+                    </h1>
+                </a>
+            </section>
+            <section class="main-grid">
+                <a href="https://github.com/Aangaritai/PacMen" target="_blank">
+                    <div class="wrap wrap--1">
+                        <div class="container-grid-sing container--1"
+                            style="background: linear-gradient(hsla(0, 0%, 100%, .1), hsl(0deg 0% 0% / 87%)),url(assets/img/Pac-Man_Project.jpg);    background-position: center;">
+                            <p>01. PacMen</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Aangaritai/Eye-Movement-Assignment" target="_blank">
+                    <div class="wrap wrap--2">
+                        <div class="container-grid-sing container--2"
+                            style="background: linear-gradient(hsla(0, 0%, 100%, .1), hsl(0deg 0% 0% / 87%)),url(assets/img/Ojos-Locos_Project.jpg);    background-position: center;">
+                            <p>02. Eye Exercise</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Aangaritai/Real-TimeBus-Tracker" target="_blank">
+                    <div class="wrap wrap--3">
+                        <div class="container-grid-sing container--3"
+                            style="background: linear-gradient(hsla(0, 0%, 100%, .1), hsl(0deg 0% 0% / 87%)),url(assets/img/Bus-Tracker_Project.jpg);    background-position: center;">
+                            <p>03. Real Time Bus Tracker</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </main><!-- End Main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <!-- Poner el nombre. -->
+            <h3>Alexander Angarita Iguarán</h3>
+            <p>Este proyecto hace parte del Curso de Certificación en desarrollo y programación de Software full Stack Mitxpro.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/alexander-angarita-iguar%C3%A1n-18a77a16/" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="MIT license.">
+                <strong><span>Alexander Angarita Iguarán</span></strong>. This project has an MIT license.
+            </div>
+            <div class="credits">
+                Designed by <a href="index.html">Alexander Angarita Iguarán</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <!-- Vendor JS -->
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+    <!-- Personal JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Online JS -->
+</body>
+
+</html>
